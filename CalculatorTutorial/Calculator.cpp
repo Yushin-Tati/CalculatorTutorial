@@ -2,6 +2,7 @@
 
 double Calculator::Calculate(double x, char oper, double y) {
 
+	// ŒvZ•û–@‚Åê‡•ª‚¯
 	switch (oper) {
 	case '+':
 		return x + y;

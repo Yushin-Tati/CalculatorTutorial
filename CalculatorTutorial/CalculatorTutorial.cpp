@@ -16,10 +16,13 @@ int main()
     cout << "Caluculator Console Application" << endl << endl;
     cout << "Please enter the operation to perform. Format: a+b | a-b | a*b | a/b" << endl;
 
+    // インスタンス生成
     Calculator c;
     while (true)
     {
         cin >> x >> oper >> y;
+
+        // 0で割り算ができないようにする
         if (oper == '/' && y == 0)
         {
             cout << "Division by 0 exception" << endl;
