@@ -2,7 +2,7 @@
 
 double Calculator::Calculate(double x, char oper, double y) {
 
-	// 計算方法で場合分け
+	// 計算方法で分岐
 	switch (oper) {
 	case '+':
 		return x + y;
