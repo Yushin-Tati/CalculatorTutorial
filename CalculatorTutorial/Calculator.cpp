@@ -1,9 +1,10 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "Calculator.h"
 
-// ŒvZ•û–@‚Å•ªŠò
+
 double Calculator::Calculate(double x, char oper, double y) {
 
+	// è¨ˆç®—æ–¹æ³•ã§åˆ†å²
 	switch (oper) {
 	case '+':
 		return x + y;
