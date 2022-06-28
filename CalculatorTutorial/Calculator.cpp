@@ -1,8 +1,8 @@
 #include "Calculator.h"
 
+// 計算方法で分岐
 double Calculator::Calculate(double x, char oper, double y) {
 
-	// 計算方法で分岐
 	switch (oper) {
 	case '+':
 		return x + y;
